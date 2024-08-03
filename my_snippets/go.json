@@ -1,0 +1,22 @@
+{
+	"Block comment": {
+		"prefix": "hmmm",
+		"body": [
+			"/*",
+			"$0",
+			"*/"
+		]
+	},
+	"Starter code": {
+		"prefix": "noob",
+		"body": [
+			"package main",
+			"",
+			"import \"fmt\"",
+			"",
+			"func main() {",
+			"	fmt.Println(\"Hello, world!\")$0",
+			"}"
+		]
+	}
+}
