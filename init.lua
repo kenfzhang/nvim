@@ -133,7 +133,7 @@ vim.keymap.set("v", "<S-Right>", "e")
 vim.keymap.set("n", "<C-s>", ":w<CR>")
 vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")
 
-vim.keymap.set("n", "<C-c>", "<S-v>y")
+vim.keymap.set("n", "<C-c>", "yy")
 vim.keymap.set("i", "<C-c>", "<Esc><S-v>y")
 vim.keymap.set("v", "<C-c>", "y")
 
@@ -143,6 +143,7 @@ vim.keymap.set("v", "<C-x>", "d")
 
 vim.keymap.set("n", "<C-z>", "u")
 vim.keymap.set("i", "<C-z>", "<Esc>u")
+vim.keymap.set("s", "<C-z>", "<Esc>u")
 
 vim.keymap.set("n", "<C-a>", "ggVG")
 vim.keymap.set("i", "<C-a>", "<Esc>ggVG")
