@@ -157,6 +157,9 @@ vim.keymap.set("n", "<A-w>", "<C-w>w<S-a>")
 vim.keymap.set("t", "<A-w>", "<C-\\><C-n><C-w>w")
 vim.keymap.set("t", "<A-a>", "<C-\\><C-n><C-w>q")
 
+vim.keymap.set("n", "<A-j>", "10<C-e>")
+vim.keymap.set("n", "<A-k>", "10<C-y>")
+
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
 
