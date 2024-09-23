@@ -165,6 +165,8 @@ vim.keymap.set("t", "<S-Space>", "<Space>")
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
 
+vim.g.user_emmet_leader_key = "<A-z>"
+
 -- END my custom keymaps
 
 -- [[ Basic Autocommands ]]
@@ -208,6 +210,7 @@ require("lazy").setup({
 	-- "cohama/lexima.vim", -- For autocompleting parentheses
 	-- "tpope/vim-surround",
 	-- "windwp/nvim-autopairs",
+	"mattn/emmet-vim",
 
 	-- NOTE: Plugins can also be added by using a table,
 	-- with the first argument being the link and the following
