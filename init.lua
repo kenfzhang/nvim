@@ -117,9 +117,9 @@ vim.keymap.set("i", "<A-k>", "<Up>")
 vim.keymap.set("i", "<A-l>", "<Right>")
 
 vim.keymap.set("i", "<S-Left>", "<Esc>v<Left>")
-vim.keymap.set("i", "<S-Right>", "<Esc>v<Right>")
+vim.keymap.set("i", "<S-Right>", "<Right><Esc>v<Right>")
 vim.keymap.set("i", "<S-Up>", "<Esc>v<Up>")
-vim.keymap.set("i", "<S-Down>", "<Esc>v<Down>")
+vim.keymap.set("i", "<S-Down>", "<Right><Esc>v<Down>")
 
 vim.keymap.set("n", "<S-Left>", "v<Left>")
 vim.keymap.set("n", "<S-Right>", "v<Right>")
@@ -159,6 +159,8 @@ vim.keymap.set("t", "<A-a>", "<C-\\><C-n><C-w>q")
 
 vim.keymap.set("n", "<A-h>", "b")
 vim.keymap.set("n", "<A-l>", "w")
+
+vim.keymap.set("t", "<S-Space>", "<Space>")
 
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
