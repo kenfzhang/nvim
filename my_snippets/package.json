@@ -16,6 +16,12 @@
 			},
 			{
 				"language": [
+					"zig"
+				],
+				"path": "./zig.json"
+			},
+			{
+				"language": [
 					"go"
 				],
 				"path": "./go.json"
