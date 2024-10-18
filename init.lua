@@ -784,17 +784,17 @@ require("lazy").setup({
 			end
 
 			-- Custom snippets
-			ls.add_snippets(nil, {
-				all = {
-					snip({
-						trig = "date",
-						namr = "Date",
-						dscr = "Date in the form of YYYY-MM-DD",
-					}, {
-						func(date, {}),
-					}),
-				},
-			})
+			-- ls.add_snippets(nil, {
+			--	all = {
+			--		snip({
+			--			trig = "date",
+			--			namr = "Date",
+			--			dscr = "Date in the form of YYYY-MM-DD",
+			--		}, {
+			--			func(date, {}),
+			--		}),
+			--	},
+			--})
 			require("luasnip.loaders.from_vscode").lazy_load({ paths = "~/.config/nvim/my_snippets" })
 		end,
 	},
