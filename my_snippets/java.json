@@ -1,0 +1,21 @@
+{
+	"Block comment": {
+		"prefix": "hmmm",
+		"body": [
+			"/*",
+			"$0",
+			"*/"
+		]
+	},
+	"Starter code": {
+		"prefix": "noob",
+		"body": [
+			"public class Main {",
+			"	public static void main(String[] args) {",
+			"		System.out.println(\"Hello World\");$0",
+			"	}",
+			"}"
+		]
+	}
+}
+
